@@ -243,6 +243,25 @@ A quick reference for the moments that matter most:
 
 ---
 
+## Length: the most common mistake in both directions
+
+More words is not better microcopy. The goal is the right words — often fewer.
+
+**Cut first, add only what earns its place.** Before adding context, ask: would a first-time user 
+actually be confused without this? If no, cut it. If yes, add it right where the confusion would happen.
+
+- Slack's weekly digest is celebrated precisely because it is short. Data, then done.
+- A button label should be 2–4 words. If you need 8, the design has a problem.
+- Toast notifications should be one clause. "Saved." is fine. "Your changes have been successfully saved to the cloud." is not.
+- Helper text that explains something obvious ("Enter your name in this field") adds noise, not value.
+
+**The test**: if removing a sentence doesn't create confusion, remove it.
+
+Specificity and brevity are not in tension — "Card updated" is both shorter and more specific than 
+"Your information has been saved successfully." Write tight.
+
+---
+
 ## Anti-patterns to avoid
 
 - **Jargon**: "Authentication failed", "Invalid token", "HTTP 500" — rewrite in plain language.
@@ -253,6 +272,8 @@ A quick reference for the moments that matter most:
 - **Front-loaded help text**: Walls of instructions before a form nobody reads.
 - **Personality without clarity**: A pun that makes users unsure what a button does.
 - **Blameful errors**: "You entered an invalid date." → "That date doesn't look right — try MM/DD/YYYY."
+- **Over-explaining**: Adding context the user didn't need. If they weren't going to wonder, don't answer.
+- **Verbose confirmations**: "Your changes have been successfully saved." → "Saved."
 
 ---
 
