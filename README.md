@@ -40,16 +40,18 @@ It activates automatically whenever your agent is building any user-facing scree
 **Without this skill:**
 
 > - Button: `Submit`
-> - Error: `Something went wrong`
-> - Empty cart: `Your cart is empty`
-> - After payment: `Order placed`
+> - Error: `Payment error. Please try again.`
+> - Empty listings page: `No items`
+> - Loading: `Loading...`
+> - After purchase: `Order confirmed`
 
 **With this skill:**
 
-> - Button: `Start buying` / `List this item`
-> - Error: `Your payment didn't go through. Double-check the card details or try a different one. Your cart is still saved.`
-> - Empty cart: `Your cart is empty. Your next favourite piece is out there. Go find it.`
-> - After payment: `Order placed. {{seller_name}} has 3 days to ship and will send you tracking. You're protected if anything goes wrong.`
+> - Button: `List this item` / `Grab this fit`
+> - Error: `Your payment didn't go through. Double-check your card details or try a different one. Your cart is still saved.`
+> - Empty listings page: `Nothing listed yet. Upload a photo and set your price. Takes about 2 minutes.`
+> - Loading: `Browsing pieces near you...`
+> - After purchase: `It's yours. {{seller_name}} will ship within 3 days and send tracking. Reach out if anything seems off.`
 
 ---
 
