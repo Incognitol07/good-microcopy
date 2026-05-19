@@ -221,22 +221,42 @@ The principle: every word a user reads is an interaction. Treat it that way.
 
 ---
 
-## Microcopy by UI Element
+## Information belongs at the moment the user needs it, not before
 
-A quick reference for the moments that matter most:
+One of the most common AI writing mistakes: dumping all relevant information into one place
+because it feels complete. Users don't read interfaces. They scan, act, and move on. Information
+that arrives too early gets ignored. Information that arrives too late creates frustration.
 
-| Element | What to get right |
-|---|---|
-| **Buttons** | Describe the outcome, not the action. "Save changes" becomes "Save and continue editing". Use first person for choices: "Start my free trial". |
-| **Placeholders** | Only use when they add context examples can't convey. Never use as a label replacement. "Search for a city, ZIP, or landmark." |
-| **Error messages** | State what happened, why, and what to do next. No blame. No codes. No jargon. |
-| **Empty states** | Explain what goes here, why it's empty, and the clearest next step. |
-| **Loading / progress** | Show time estimates when you can. Use personality sparingly. Never leave users with just a spinner and no information. |
-| **Confirmation dialogs** | Name the specific thing being deleted/changed. Show consequences. Offer an alternative to the destructive path. |
-| **Form helper text** | Put it next to the field it helps, not at the top of the form. Answer the question the user is about to ask. |
-| **Notifications / toasts** | Be specific. "Project saved" not "Saved." Vary repeated confirmations. |
-| **Onboarding tooltips** | Time them to the action they explain. Don't show everything at once. |
-| **Success screens** | Confirm what completed, state what comes next, and offer an immediate next action. |
+The psychological principle is **just-in-time disclosure**: surface each piece of information at
+the exact moment it becomes relevant to the user's current intention.
+
+**Timing is the variable:**
+
+- **Before the action**: prime with what the user needs to decide. Keep it short. They're
+  about to do something, not read documentation.
+- **During the action**: support without interrupting. Address the question they're having
+  right now, not the one they'll have later.
+- **After the action**: confirm what happened, then stop. The user has moved on mentally.
+  One sentence. Not three.
+
+**Bad** (complete but poorly timed):
+> "Post your listing and it will go live immediately so other students nearby can find it, browse
+> photos, and purchase directly from you."
+
+**Good** (same information, timed correctly):
+> Before: "Goes live instantly. Students nearby see it first."
+> After: "Listed. Students nearby can see it now."
+
+The information is identical. What changed is when each piece appears.
+
+**Working memory is small.** Humans hold roughly 4-7 items in mind at once. Copy that gives
+a user more than they need at a given moment doesn't inform them. It competes with the task
+they're trying to complete. Strip each piece of copy down to what the user needs right now,
+nothing else.
+
+**Progressive disclosure beats front-loading.** Show the minimum needed to act. Reveal detail
+as it becomes relevant. A user about to click a button doesn't need to know what happens three
+steps later. A user who just clicked does.
 
 ---
 
