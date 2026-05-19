@@ -38,12 +38,14 @@ It activates automatically whenever your agent is building any user-facing scree
 **Prompt:** Write the copy for a student thriftwear marketplace
 
 **Without this skill:**
+
 > - Button: `Submit`
 > - Error: `Something went wrong`
 > - Empty cart: `Your cart is empty`
 > - After payment: `Order placed`
 
 **With this skill:**
+
 > - Button: `Start buying` / `List this item`
 > - Error: `Your payment didn't go through. Double-check the card details or try a different one. Your cart is still saved.`
 > - Empty cart: `Your cart is empty. Your next favourite piece is out there. Go find it.`
